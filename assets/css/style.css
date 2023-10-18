@@ -20,7 +20,8 @@
    * colors
    */
 
-  --raw-seinna: hsl(24, 74%, 58%);
+  /* --raw-seinna: hsl(24, 74%, 58%); */
+  --raw-seinna: hsl(310, 80%, 40%);
   --sizzling-sunrise: hsl(51, 95%, 54%);
   --scarlet: hsl(13, 96%, 47%);
   --black: hsl(0, 0%, 0%);
@@ -180,7 +181,7 @@ body.active { overflow: hidden; }
 
 .h1 {
   font-size: var(--fs-1);
-  line-height: 1.2;
+  line-height: .8;
   font-weight: 400;
 }
 
