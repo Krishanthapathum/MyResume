@@ -7,7 +7,6 @@
 const elemToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 
-
 /**
  * header sticky & go to top
  */
@@ -27,8 +26,6 @@ window.addEventListener("scroll", function () {
 
 });
 
-
-
 /**
  * navbar toggle
  */
@@ -43,8 +40,6 @@ navToggleBtn.addEventListener("click", function () {
   elemToggleFunc(document.body);
 
 });
-
-
 
 /**
  * skills toggle
@@ -63,8 +58,6 @@ for (let i = 0; i < toggleBtns.length; i++) {
 
   });
 }
-
-
 
 /**
  * dark & light theme toggle
