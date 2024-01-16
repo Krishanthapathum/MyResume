@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Krishantha Pathum</title>
+  <title>Pathum Krishantha</title>
 
   <!-- 
     - favicon
@@ -25,6 +25,39 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
     rel="stylesheet">
+
+<style>
+  .about-banner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+#myVideo {
+  width: 80%;
+  height: auto;
+  display: block;
+  border-radius: 30px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  object-fit: cover; /* Ensure the video covers the entire container */
+}
+
+/* Optional: Style the text content on top of the video */
+/* .about-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding: 20px;
+ 
+} */
+
+
+</style>
+
+
+
 </head>
 
 <body id="top" class="dark_theme">
@@ -190,10 +223,19 @@
       -->
 
       <section class="about" id="about">
-
         <figure class="about-banner">
-          <img src="./assets/images/about-banner.png" alt="A man in a alice blue shirt with a thinking expression"
-            class="w-100">
+
+          <!-- <video id="myVideo" autoplay loop muted width="500" height="360">
+            <source src="assets/images/test.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video> -->
+
+          <video id="myVideo" autoplay loop muted playsinline width="400" height="400">
+            <source src="assets/images/test.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          
+          
         </figure>
 
         <div class="about-content section-content">
