@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TechPulze</title>
+  <title>Krishantha Pathum</title>
 
   <!-- 
     - favicon
@@ -36,8 +36,8 @@
   <header class="header" data-header>
     <div class="container">
       <h1 class="h1 logo">
-        <a href="#">Tech<span></span></a>
-        <a href="#">Pulze<span>.</span></a>
+        <a href="#">Pathum<span></span></a>
+        <a href="#">Krishantha<span>.</span></a>
       </h1>
 
       <div class="navbar-actions">
@@ -108,28 +108,29 @@
 
         <ul class="hero-social-list">
           <li>
-            <a href="#" class="hero-social-link">
+            <a href="https://web.facebook.com/krishantha.pathum.3/" class="hero-social-link" target="_blank">
               <ion-icon name="logo-facebook"></ion-icon>
               <div class="tooltip">Facebook</div>
             </a>
           </li>
 
           <li>
-            <a href="#" class="hero-social-link">
+              <a href="https://twitter.com/Krishantha00" class="hero-social-link" target="_blank">
+
               <ion-icon name="logo-twitter"></ion-icon>
               <div class="tooltip">Twitter</div>
             </a>
           </li>
 
           <li>
-            <a href="#" class="hero-social-link">
+            <a href="https://www.linkedin.com/in/krishantha-pathum-42705923a/" class="hero-social-link" target="_blank">
               <ion-icon name="logo-linkedin"></ion-icon>
               <div class="tooltip">Linkedin</div>
             </a>
           </li>
 
           <li>
-            <a href="https://github.com/Krishanthapathum" class="hero-social-link">
+            <a href="https://github.com/Krishanthapathum" class="hero-social-link" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
               <div class="tooltip">GitHub</div>
             </a>
@@ -152,9 +153,9 @@
                 <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
               </div>
               <h2 class="h2 card-title">
-                12+ <strong>Years of Experience</strong>
+                3+ <strong>Years of Experience</strong>
               </h2>
-              <ion-icon name="chevron-forward-outline"></ion-icon>
+              <!-- <ion-icon name="chevron-forward-outline"></ion-icon> -->
             </a>
           </li>
 
@@ -164,9 +165,9 @@
                 <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon">
               </div>
               <h2 class="h2 card-title">
-                230+ <strong>Completed Projects</strong>
+                7+ <strong>Completed Projects</strong>
               </h2>
-              <ion-icon name="chevron-forward-outline"></ion-icon>
+              <!-- <ion-icon name="chevron-forward-outline"></ion-icon> -->
             </a>
           </li>
 
@@ -176,9 +177,9 @@
                 <img src="./assets/images/stats-card_icon-3.png" alt="Peoples rating icon">
               </div>
               <h2 class="h2 card-title">
-                95+ <strong>Happy Clients</strong>
+                5+ <strong>Happy Clients</strong>
               </h2>
-              <ion-icon name="chevron-forward-outline"></ion-icon>
+              <!-- <ion-icon name="chevron-forward-outline"></ion-icon> -->
             </a>
           </li>
         </ul>
@@ -199,7 +200,7 @@
           <p class="section-subtitle">About me</p>
           <h2 class="h3 section-title">Need a Creative Product? I can Help You!</h2>
           <p class="section-text">
-            I'm Krishantha Pathum, a dedicated developer passionate about creating sleek web applications with
+            I'm Pathum Premalal, a dedicated developer passionate about creating sleek web applications with
             user-friendly features. I thrive on the thrill of transforming innovative ideas into tangible solutions
             through creative problem-solving. I have an insatiable curiosity that drives me to continually expand my
             skill set and embrace cutting-edge concepts.
@@ -213,9 +214,24 @@
           </p>
 
           <div class="btn-group">
-            <button class="btn btn-secondary">Hire me</button>
 
-            <button class="btn btn-primary">Download cv</button>
+            <button class="btn btn-secondary" onclick="scrollToContact()">Hire me</button>
+            <script>
+              function scrollToContact() {
+                var contactSection = document.querySelector('.contact');
+                if (contactSection) {
+                  contactSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }
+            </script>
+            <!-- <button class="btn btn-secondary">Hire me</button> -->
+
+            <!-- <button class="btn btn-primary">Download cv</button> -->
+
+            <button class="btn btn-primary">
+              <a href="doc/Pathum _Premalal_CV.pdf" target="_blank" download>Download CV</a>
+            </button>
+            
           </div>
         </div>
       </section>
@@ -485,9 +501,9 @@
           </li>
 
           <li>
-            <a href="https://github.com/Krishanthapathum/bmi_calculator" target="https://github.com/Krishanthapathum/bmi_calculator" class="project-card">
+            <a href="https://github.com/Krishanthapathum/bmi_calculator" target="_blank" class="project-card">
               <figure class="card-banner">
-                <img src="./assets/images/bmiflutter.png" class="w-100" alt="A macintosh on a yellow background.">
+                <img src="./assets/images/bmiflutter.png" class="w-100" alt="BMI calculater img">
               </figure>
               <div class="card-content">
                 <h3 class="h4 card-title">BMI Calculator Mobile Application<br>-Flutter</h3>
@@ -496,23 +512,22 @@
             </a>
           </li>
 
-          <li>
-            <a href="#" class="project-card">
+          <!-- <li>
+            <a href="#" target="_blank" class="project-card">
               <figure class="card-banner">
-                <img src="./assets/images/project-2.png" class="w-100" alt="On a Blue background, a Wacom and a mouse.">
+                <img src="./assets/images/project-2.png" class="w-100" alt="img">
               </figure>
               <div class="card-content">
                 <h3 class="h4 card-title">Lorem Ipsum Dolor 02</h3>
                 <time class="publish-date" datetime="2022-04">April 2022</time>
               </div>
             </a>
-          </li>
+          </li> -->
 
           <li>
-            <a href="#" class="project-card">
+            <a href="https://github.com/Isurusandaruwan697/NG-Constructions" target="_blank" class="project-card">
               <figure class="card-banner">
-                <img src="./assets/images/ngconstruction.png" class="w-100"
-                  alt="A Cassette tape on a mellow apricot background.">
+                <img src="./assets/images/ngconstruction.png" class="w-100" alt="NG-Constructions img">
               </figure>
               <div class="card-content">
                 <h3 class="h4 card-title">NG Construction <br>Inventry Management System - C#</h3>
@@ -522,10 +537,9 @@
           </li>
 
           <li>
-            <a href="#" class="project-card">
+            <a href="https://github.com/DewniSeneviratne/CRM_SPC.git" target="_blank" class="project-card">
               <figure class="card-banner">
-                <img src="./assets/images/osusala.png" class="w-100"
-                  alt="Blue digital watch on a dark liver background.">
+                <img src="./assets/images/osusala.png" class="w-100" alt="SPC CRM img">
               </figure>
               <div class="card-content">
                 <h3 class="h4 card-title">Rajya Osusala<br>Inventry Management System - C#</h3>
@@ -534,7 +548,7 @@
             </a>
           </li>
 
-          <li>
+          <!-- <li>
             <a href="#" class="project-card">
               <figure class="card-banner">
                 <img src="./assets/images/project-5.png" class="w-100"
@@ -545,13 +559,12 @@
                 <time class="publish-date" datetime="2022-04">April 2022</time>
               </div>
             </a>
-          </li>
+          </li> -->
 
           <li>
-            <a href="#" class="project-card">
+            <a href="https://github.com/Isurusandaruwan697/NMEDIX" target="_blank" class="project-card">
               <figure class="card-banner">
-                <img src="./assets/images/nmedix.png" class="w-100"
-                  alt="On a yellow background, a digital watch and a glass.">
+                <img src="./assets/images/nmedix.png" class="w-100" alt="nmedix img">
               </figure>
               <div class="card-content">
                 <h3 class="h4 card-title">NMedix Medical Assistant<br>
@@ -562,10 +575,9 @@
           </li>
 
           <li>
-            <a href="#" class="project-card">
+            <a href="projects/Thuruliya Website/index.html" target="_blank" class="project-card">
               <figure class="card-banner">
-                <img src="./assets/images/thuruliyaweb.png" class="w-100"
-                  alt="A fujifilm instant camera on a dark electric blue background.">
+                <img src="./assets/images/thuruliyaweb.png" class="w-100" alt="Thuruliya web img">
               </figure>
               <div class="card-content">
                 <h3 class="h4 card-title">Thurliya Ecommerce Website</h3>
@@ -729,12 +741,12 @@
     <div class="container">
       <p class="h1 logo">
         <a href="#">
-          TechPulze<span>.</span>
+          Pathum Krishantha<span>.</span>
         </a>
       </p>
 
       <p class="copyright">
-        &copy; 2023 <a href="#">TechPulze</a>. All rights reserved
+        &copy; 2024 <a href="#">PK</a>. All rights reserved
       </p>
 
     </div>

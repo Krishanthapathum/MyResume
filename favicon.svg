@@ -1,12 +1,30 @@
-<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_71_50)">
-<rect width="100" height="100" rx="10" fill="white"/>
-<path d="M13.7806 72.55C17.7406 72.55 20.7839 72.44 22.9106 72.22C25.0372 72 26.5772 71.45 27.5306 70.57C28.5572 69.6167 29.1439 68.26 29.2906 66.5C29.4372 64.1533 29.5106 61.7333 29.5106 59.24V12.82H51.5106V51.76C51.5106 58.8 51.4006 64.19 51.1806 67.93C50.9606 71.67 50.4839 74.7867 49.7506 77.28C48.9439 79.9933 47.7339 82.12 46.1206 83.66C44.5806 85.1267 42.4172 86.2267 39.6306 86.96C37.0639 87.62 33.8372 88.06 29.9506 88.28C26.1372 88.4267 20.7472 88.5 13.7806 88.5V72.55Z" fill="#1F1F1F"/>
-<path d="M65.3491 70.57H87.5691V88.5H65.3491V70.57Z" fill="#E38445"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#9F3995;stroke:#000000;stroke-width:14;stroke-miterlimit:10;}
+	.st3{font-family:'ArialMT';}
+	.st4{font-size:100.0601px;}
+	.st5{fill:#9F3995;}
+</style>
+<g>
+	<g>
+		<g>
+			<defs>
+				<path id="SVGID_1_" d="M10,0h80c5.5,0,10,4.5,10,10v80c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10V10C0,4.5,4.5,0,10,0z"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st0">
+				<path class="st1" d="M10,0h80c5.5,0,10,4.5,10,10v80c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10V10C0,4.5,4.5,0,10,0z"/>
+				<text transform="matrix(0.8616 0 0 1 7.0883 86.2064)" class="st2 st3 st4">T</text>
+				<path class="st5" d="M64,75.4h22.2v17.9H64V75.4z"/>
+			</g>
+		</g>
+	</g>
 </g>
-<defs>
-<clipPath id="clip0_71_50">
-<rect width="100" height="100" rx="10" fill="white"/>
-</clipPath>
-</defs>
 </svg>
