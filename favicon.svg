@@ -5,26 +5,32 @@
 <style type="text/css">
 	.st0{clip-path:url(#SVGID_2_);}
 	.st1{fill:#FFFFFF;}
-	.st2{fill:#9F3995;stroke:#000000;stroke-width:14;stroke-miterlimit:10;}
+	.st2{fill:#9F3995;}
 	.st3{font-family:'ArialMT';}
 	.st4{font-size:100.0601px;}
-	.st5{fill:#9F3995;}
+	.st5{fill:none;stroke:#000000;stroke-width:14;stroke-miterlimit:10;}
 </style>
 <g>
 	<g>
 		<g>
-			<defs>
-				<path id="SVGID_1_" d="M10,0h80c5.5,0,10,4.5,10,10v80c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10V10C0,4.5,4.5,0,10,0z"/>
-			</defs>
-			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-			</clipPath>
-			<g class="st0">
-				<path class="st1" d="M10,0h80c5.5,0,10,4.5,10,10v80c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10V10C0,4.5,4.5,0,10,0z"/>
-				<text transform="matrix(0.8616 0 0 1 7.0883 86.2064)" class="st2 st3 st4">T</text>
-				<path class="st5" d="M64,75.4h22.2v17.9H64V75.4z"/>
+			<g>
+				<defs>
+					<path id="SVGID_1_" d="M10,0h80c5.5,0,10,4.5,10,10v80c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10V10C0,4.5,4.5,0,10,0z"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st0">
+					<path class="st1" d="M10,0h80c5.5,0,10,4.5,10,10v80c0,5.5-4.5,10-10,10H10c-5.5,0-10-4.5-10-10V10C0,4.5,4.5,0,10,0z"/>
+					<text transform="matrix(0.8616 0 0 1 7.0884 86.2065)" class="st2 st3 st4">T</text>
+					<text transform="matrix(0.8616 0 0 1 7.0884 86.2065)" class="st5 st3 st4">T</text>
+					<path class="st2" d="M133.1,66.4h22.2v17.9h-22.2V66.4z"/>
+				</g>
 			</g>
 		</g>
+		
+			<image style="overflow:visible;" width="3334" height="3334" xlink:href="../../../../../TechPulze/Techpulze logo-01.png"  transform="matrix(2.999400e-02 0 0 2.999400e-02 0 0)">
+		</image>
 	</g>
 </g>
 </svg>
